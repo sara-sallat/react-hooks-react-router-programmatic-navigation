@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 
 function Login({ setIsLoggedIn }) {
   const history = useHistory();
+  console.log(history);
   const [formData, setFormData] = useState({
     username: "",
     password: "",
